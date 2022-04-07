@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Suporte, Manutenção, Computadores">
+    <meta name="description" content="Loja de Informática Obama">
+    <meta name="author" content="Gabriela">
+    <meta role="shortcut icon" href="img/tela.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/cadf9f67ef.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Open+Sans:ital,wght@0,300;0,500;0,800;1,300;1,800&family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Loja de Informática Obama</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <h1 class="logo">
+            <a href="http://index.html" title="Loja de Informática Obama">Loja de Informática Obama</a>
+        </h1>
+        <!--get = inf. pela URL
+        post = inf. criptografada
+        action = pagina receberá informação dentro do form -->
+        <form action="" method="post">
+            <input type="text" name="busca" id="busca" placeholder="faça uma busca aqui">
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+    </header>
+    <nav class="menu">
+        <!-- ul>(li>a)*4  -->
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#produtos">Produtos</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#contatos">Contatos</a></li>
+        </ul>
+        <div class="social-icons">
+            <a href="#" class="btn-facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="btn-twitter"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#" class="btn-google"><i class="fa-brands fa-google"></i></a>
+        </div>
+    </nav>
+    <main class="principal">
+        <!-- teag semantica, ajuda a posicionar melhor o site -->
+        <article class="sobre">
+            <!-- h2+img+p  -->
+            <h2>Sobre</h2>
+            <img  id="img" src="img/loja.jpg" alt="imagem de uma loja de informática com três pessoas, sendo dois homens e duma mulher. Mulher vestida... e homem vestido...">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim voluptatum quia illum tempore, praesentium reprehenderit fuga labore quae laudantium perferendis quod iste necessitatibus placeat minus vitae atque perspiciatis at quasi.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut porro sed rerum et maiores explicabo consectetur. Commodi sint voluptatem aliquam optio fugit mollitia ipsa. Nam quo doloribus necessitatibus expedita molestiae?</p>
+        </article>
+        <!-- menu lateral, igual mercado livre - ex.filtro -->
+        <aside class="onde-estamos">
+            <h2>Onde Estamos</h2>
+            <p>Rua: Tito, n° 54 - Vila Romana - São Paulo - SP -Brasil</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14632.50456799206!2d-46.703648171519546!3d-23.527965055189853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef8775663b04f%3A0x923835e9005f8309!2sSenac%20Lapa%20Tito!5e0!3m2!1spt-BR!2sbr!4v1647265827863!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <!-- h2+ul>li*3 -->
+            <h2>Contatos</h2>
+            <ul>
+                <li><i class="fa-solid fa-phone"></i>(11)958888-8888</li>
+                <li><i class="fa-brands fa-whatsapp"></i>(11)958888-8888</li>
+                <li><i class="fa-solid fa-envelope">aaaa@gmailcom</i></li>
+            </ul>
+        </aside>
+    </main>
+    <section class="newsletter">
+        <h3>Newsletter</h3>
+        <p>Receba nossas promoções no email</p>
+        <form action="" method="post">
+            <input type="text" name="" id="" placeholder="Seu nome">
+            <input type="text" name="" id="" placeholder="Seu e-mail">
+            <button>Cadastrar</button>
+        </form>
+    </section>
+    <footer class="rodape">
+        <p> Loja do Obama - Todos os direitos&copy;</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,14 @@
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+h1{
+    color: red;
+}
+h2{
+    color: blue;
+}
+body{
+    background-color: lightcyan;
+}
+/*background: linear-gradient(72deg, #3DEBB0 1%, #8956F3 99%) ;*/
